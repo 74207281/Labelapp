@@ -320,27 +320,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def __show_img(self):
         # if the image is loaded
         if self.isimageload:
-            # # Get picture height and width
-            # w, h = self.pix_image.width(), self.pix_image.height()
-            # # Get width and height of space
-            # # print(h)
-            # ww, wh = self.widget_2.width(), self.widget_2.height()
-            # # Get sacle of original image and
-            # scalew = ww/w
-            # scaleh = wh/h
-            # if scalew > scaleh:
-            #     new_h = int(h * scaleh)
-            #     new_w = int(new_h * (w / h))
-            # else:
-            #     new_w = int(w * scalew)
-            #     new_h = int(new_w * (h / w))
-            # Change image
-            # self.pix_image = self.pix_image.scaled(QtCore.QSize(new_w, new_h),
-            #    aspectRatioMode=QtCore.Qt.AspectRatioMode.KeepAspectRatio,
-            #    transformMode=QtCore.Qt.TransformationMode.SmoothTransformation)
-            # self.image_label.resize(QtCore.QSize(new_w, new_h))
-            # self.image_label.setPixmap(self.pix_image)
-            # self.image_label.setScaledContents(True)
 
             # Change name
             self.current_file_label.setText(
