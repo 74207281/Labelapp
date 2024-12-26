@@ -6,13 +6,10 @@
 import sys
 import os
 import cv2
-import typing
-import PyQt5
 import json
-import csv
 import pandas as pd
 import numpy as np
-from PyQt5 import QtGui, QtCore, QtWidgets
+from PyQt5 import QtWidgets
 from PIL import Image
 from mainUI import Ui_MainWindow
 from PyQt5.QtWidgets import (
