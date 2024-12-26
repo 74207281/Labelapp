@@ -87,7 +87,7 @@ Windows:
 MacOS/Linux:
 
 ```shell
-source env/bin/activate
+source venv/bin/activate
 ```
 
 ---
